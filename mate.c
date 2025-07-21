@@ -15,6 +15,8 @@ i32 main()
         AddFile(executable, "./src/debug.c");
         AddFile(executable, "./src/value.c");
         AddFile(executable, "./src/vm.c");
+        AddFile(executable, "./src/compiler.c");
+        AddFile(executable, "./src/scanner.c");
 
         InstallExecutable(executable);
     }
