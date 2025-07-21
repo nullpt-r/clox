@@ -14,6 +14,7 @@ i32 main()
         AddFile(executable, "./src/memory.c");
         AddFile(executable, "./src/debug.c");
         AddFile(executable, "./src/value.c");
+        AddFile(executable, "./src/vm.c");
 
         InstallExecutable(executable);
     }
